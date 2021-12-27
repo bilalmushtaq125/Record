@@ -21,7 +21,6 @@ class TransactionsList extends StatelessWidget {
               child: Text('Rs. ${transactions[index].amount}'),
             ),
             title: Text(transactions[index].purpose),
-            subtitle: Text('${date.day}/${date.month}/${date.year}'),
             trailing: IconButton(
               icon: const Icon(Icons.delete),
               onPressed: () {},
