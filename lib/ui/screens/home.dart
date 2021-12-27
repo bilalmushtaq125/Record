@@ -8,7 +8,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Expense Manager'),
+        title: const Text('Record Keeping'),
         actions: [
           IconButton(
             onPressed: () => _addData(context),
