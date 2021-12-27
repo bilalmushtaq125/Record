@@ -16,19 +16,8 @@ class Home extends StatelessWidget {
           ),
         ],
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => _addData(context),
-        child: const Icon(Icons.add),
-      ),
       body: Column(
         children: [
-          Card(
-            child: Container(
-              color: Colors.green,
-              child: const Text('Chart'),
-            ),
-          ),
           const Expanded(
             child: Card(
               child: TransactionsList(),
@@ -39,16 +28,5 @@ class Home extends StatelessWidget {
     );
   }
 
-  void _addData(BuildContext context) {
-    showModalBottomSheet(
-      context: context,
-      builder: (_) {
-        return Column(
-          children: const [
-            Text('Bottom sheet'),
-          ],
-        );
-      },
-    );
-  }
+  void _addData(BuildContext context) {}
 }

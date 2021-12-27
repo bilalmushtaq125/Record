@@ -7,16 +7,4 @@ List<Transaction> transactions = [
     purpose: 'Abc',
     dateAdded: DateTime.now(),
   ),
-  Transaction(
-    id: 2,
-    amount: '123',
-    purpose: 'Abc',
-    dateAdded: DateTime(2021),
-  ),
-  Transaction(
-    id: 3,
-    amount: '123',
-    purpose: 'Abc',
-    dateAdded: DateTime(2020, 11),
-  ),
 ];
